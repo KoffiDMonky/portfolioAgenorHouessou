@@ -1,0 +1,59 @@
+:root{
+    --latua: 'Patua One', cursive;
+    --roboto: 'Roboto', sans-serif;
+    --red: #AE2934;
+}
+
+/* -------------HEADER------------- */
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    padding: 36px 0;
+}
+.navbar {
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-around;
+    width: 60%;
+    list-style: none;
+}
+
+.cercle {
+    display: none;
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    background: var(--red);
+}
+
+.navbar-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--roboto);
+    font-size: 15px;
+
+}
+
+.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--red);
+}
+
+.enable {
+    display: block;
+}
+
+.titre{
+    font-family: var(--latua);
+    font-size: 40px;
+}
+
+.text-color{
+    color: var(--red);
+}
