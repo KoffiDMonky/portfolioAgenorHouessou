@@ -2,7 +2,9 @@ import React from 'react'
 
 function competences() {
   return (
-    <div>competences</div>
+    <div className="container">
+      <h1>Mes compétences</h1>
+    </div>
   )
 }
 

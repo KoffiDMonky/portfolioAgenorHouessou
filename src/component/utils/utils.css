@@ -1,5 +1,5 @@
 :root {
-    --latua: 'Patua One', cursive;
+    --patua: 'Patua One', cursive;
     --roboto: 'Roboto', sans-serif;
     --red: #AE2934;
 }
@@ -23,13 +23,6 @@
     list-style: none;
 }
 
-.cercle {
-    display: none;
-    width: 5px;
-    height: 5px;
-    border-radius: 20px;
-    background: var(--red);
-}
 
 .navbar-item {
     display: flex;
@@ -39,28 +32,31 @@
     font-size: 15px;
     cursor: pointer;
     font-style: normal;
+    transform: scale(1);
+    transition: all .5s;
+}
 
-
+.navbar-item span {
+    padding: 5px 0;
 }
 
 .navbar-item:hover {
     font-size: 20px;
     font-weight: bold;
     color: var(--red);
+
 }
 
 .active {
     font-size: 20px;
     font-weight: bold;
     color: var(--red);
+
 }
 
-.enable {
-    display: block;
-}
 
 .titre {
-    font-family: var(--latua);
+    font-family: var(--patua);
     font-size: 40px;
     cursor: default;
 }
@@ -68,6 +64,27 @@
 .text-color {
     color: var(--red);
 }
+
+ul li a:before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    background: var(--red);
+    background-color: var(--red);
+    transform: scale(0);
+    transform-origin: left;
+    transition: all .5s;
+}
+
+ul li a:hover:before {
+    transform: scale(1);
+}
+
+.active:before {
+    transform: scale(1);
+}
+
 
 /* -------------FOOTER------------- */
 
@@ -81,6 +98,7 @@
 
 
 /* -------------SOCIAL ON FOOTER------------- */
+
 .social-media {
     display: flex;
     flex-direction: row;

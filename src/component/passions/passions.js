@@ -2,7 +2,9 @@ import React from 'react'
 
 function passions() {
   return (
-    <div>passions</div>
+    <div className="container">
+    <h1>Mes passions</h1>
+  </div>
   )
 }
 

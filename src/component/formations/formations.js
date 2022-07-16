@@ -2,7 +2,9 @@ import React from 'react'
 
 function formations() {
   return (
-    <div>formations</div>
+    <div className="container">
+    <h1>Ma formation</h1>
+  </div>
   )
 }
 
