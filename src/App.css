@@ -2,7 +2,7 @@
   background-color: #f9f9f9;
   background-image: url("./images/background-paper.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,8 @@
 .container{
   display: flex;
   flex-direction: column;
-  /* background-color: aqua; */
+  align-items: center;
+  justify-content: flex-start;
+
 
 }

@@ -1,0 +1,15 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px 100px;
+    width: 67vw;
+    height: auto;
+}
+
+.techno {
+    height: 132px;
+    width: 132px;
+}
