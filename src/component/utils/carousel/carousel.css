@@ -1,0 +1,73 @@
+/* -------------------------------CAROUSEL-------------------------- */
+
+.carrousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+
+
+
+
+
+/* ----------------------------------CARD---------------------------- */
+
+.card {
+
+    box-sizing: border-box;
+    width: 342px;
+    height: 484px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset -2px -2px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+}
+
+.image {
+    width: 342px;
+    height: 224px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.image img {
+    position: relative;
+    width: 224px;
+    height: 224px;
+    left: 59px;
+    top: 12px;
+    object-fit: contain;
+
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 26px;
+    gap: 11px;
+
+}
+
+.description h2 {
+    line-height: 38px;
+    text-align: center;
+}
+
+.description h3 {
+    line-height: 19px;
+    text-align: center;
+}
+
+.description h2, h3 {
+    margin: 0;
+}
+
+.description p {
+    text-align: center;
+}
