@@ -9,13 +9,13 @@ function Card(props) {
 
   return (
     <div className="card">
-      <div className="image">
+      { logo ? <div className="image">
         <img src={logo} alt="" />
-      </div>
+      </div> : ''}
       <div className="description">
-        <h3>{annee}</h3>
-        <h2>{titre}</h2>
-        <p>{description} </p>
+        { annee ? <h3>{annee}</h3> : ''}
+        { titre ? <h2>{titre}</h2> : ''}
+        { description ? <p>{description} </p> : ''}
       </div>
     </div>
   );
