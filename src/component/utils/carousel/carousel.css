@@ -41,6 +41,24 @@
     left: 59px;
     top: 12px;
     object-fit: contain;
+}
+
+.passions .image img {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.portfolio .image img {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
 
 }
 

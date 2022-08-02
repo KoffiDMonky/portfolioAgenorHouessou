@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button";
 import "./carousel.css";
 
 function Card(props) {
@@ -6,6 +7,7 @@ function Card(props) {
   const annee = props.data.annee;
   const titre = props.data.titre;
   const description = props.data.description;
+  const texte = props.data.texte;
 
   return (
     <div className="card">
@@ -16,6 +18,7 @@ function Card(props) {
         { annee ? <h3>{annee}</h3> : ''}
         { titre ? <h2>{titre}</h2> : ''}
         { description ? <p>{description} </p> : ''}
+        { texte ? <Button texte={texte}/> : ''}
       </div>
     </div>
   );

@@ -9,24 +9,27 @@ function portfolio() {
       titre: "Alt'izY",
       description:
         "Lorem ipsum dolor sit amet consectetur adipiscing elit Mauris cursus dignissim interdum Etiam in justo a purus tempus finibus. Donec. ",
+      texte: "En savoir plus"
     },
     {
       logo: "assets/images/portfolio/iCoffee.png",
       titre: "Icoffee",
       description:
         "Lorem ipsum dolor sit amet consectetur adipiscing elit Mauris cursus dignissim interdum Etiam in justo a purus tempus finibus. Donec. ",
+        texte: "En savoir plus"
     },
     {
-      logo: "assets/images/portfolio/pokedex.jpg",
+      logo: "assets/images/portfolio/pokedex.png",
       titre: "Pokédex",
       description:
         "Lorem ipsum dolor sit amet consectetur adipiscing elit Mauris cursus dignissim interdum Etiam in justo a purus tempus finibus. Donec. ",
+      texte: "En savoir plus"
     },
   ];
   return (
     <div className="container">
       <h1>Mon portfolio</h1>
-      <div className="passions">
+      <div className="portfolio">
         <Carousel array={portfolio} />
       </div>
     </div>

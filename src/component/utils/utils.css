@@ -85,6 +85,30 @@ ul li a:hover:before {
     transform: scale(1);
 }
 
+/* -------------BUTTON------------- */
+
+.primary-button {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    gap: 10px;
+    width: 150px;
+    height: 42px;
+    background: var(--red);
+    border: none;
+    border-radius: 8px;
+
+    color: #F9F9F9;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+}
+
 
 /* -------------FOOTER------------- */
 

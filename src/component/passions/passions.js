@@ -4,7 +4,7 @@ import Carousel from "../utils/carousel/Carousel";
 function passions() {
   const passions = [
     {
-      logo: "assets/images/passions/tennisrg.jpg",
+      logo: "assets/images/passions/tennisrg.png",
       titre: "Tennis",
       description:
         "Lorem ipsum dolor sit amet consectetur adipiscing elit Mauris cursus dignissim interdum Etiam in justo a purus tempus finibus. Donec. ",
