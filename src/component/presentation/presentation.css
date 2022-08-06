@@ -89,15 +89,17 @@
     border-radius: 15px;
 }
 
-.salutation-bitmoji {
-    height: 128px;
-    width: 128px;
-}
+
 
 /* ------------------------------BITMOJI----------------------- */
 
 .presentation-bitmoji {
     display: flex;
+}
+
+.salutation-bitmoji {
+    height: 128px;
+    width: 128px;
 }
 
 /* ------------------------------RESUME----------------------- */

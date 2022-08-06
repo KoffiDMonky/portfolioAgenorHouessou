@@ -8,6 +8,7 @@ function Card(props) {
   const titre = props.data.titre;
   const description = props.data.description;
   const texte = props.data.texte;
+  const url = props.data.url;
 
   return (
     <div className="card">
@@ -18,7 +19,7 @@ function Card(props) {
         { annee ? <h3>{annee}</h3> : ''}
         { titre ? <h2>{titre}</h2> : ''}
         { description ? <p>{description} </p> : ''}
-        { texte ? <Button texte={texte}/> : ''}
+        { texte ? <Button texte={texte} url={url}/> : ''}
       </div>
     </div>
   );

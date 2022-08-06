@@ -7,19 +7,19 @@ function passions() {
       logo: "assets/images/passions/tennisrg.png",
       titre: "Tennis",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Mauris cursus dignissim interdum Etiam in justo a purus tempus finibus. Donec. ",
+        "Fort de mes 25 ans de pratique, le tennis n'a plus de secret pour moi: compétiteur, capitaine d'équipe, entraîneur, bénévole, arbitre, juge-arbitre... en bref un tennisman investi !",
     },
     {
       logo: "assets/images/passions/starwars.jpg",
       titre: "Art digital",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Mauris cursus dignissim interdum Etiam in justo a purus tempus finibus. Donec. ",
+        "Porte ouverte vers ma créativité et mon côté décalé, photoshop est mon principal allié. Vous pouvez notamment retrouver mon dernier projet en cours #IshrinkPeople sur instagram @Koffi.psd.",
     },
     {
       logo: "assets/images/passions/photographie.jpg",
       titre: "Photographie",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Mauris cursus dignissim interdum Etiam in justo a purus tempus finibus. Donec. ",
+        "Autre moyen d'expression de ma créativité depuis 5 ans, dont 1 an en tant que pro, la photographie est mon pretexte n°1 pour barouder . Mon portfolio est disponible sur agenorhouessou.com.",
     },
   ];
   return (
