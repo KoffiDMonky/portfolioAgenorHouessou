@@ -1,5 +1,7 @@
 import React from "react";
 import Carousel from "../utils/carousel/Carousel";
+import { motion } from "framer-motion";
+
 
 function passions() {
   const passions = [
@@ -25,9 +27,17 @@ function passions() {
   return (
     <div className="container">
       <h1>Mes passions</h1>
-      <div className="passions">
+      <motion.div className="passions"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.2,
+            ease: [0, 0.71, 0.2, 1.01]
+          }}
+      >
         <Carousel array={passions} />
-      </div>
+      </motion.div>
     </div>
   );
 }

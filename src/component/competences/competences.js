@@ -1,5 +1,6 @@
 import React from "react";
-import './competences.css';
+import "./competences.css";
+import { motion } from "framer-motion";
 
 function competences() {
   const technos = [
@@ -27,7 +28,18 @@ function competences() {
   return (
     <div className="container">
       <h1>Mes compétences</h1>
-      <div className="skills">{displayTechnos}</div>
+      <motion.div
+        className="skills"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.2,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+      >
+        {displayTechnos}
+      </motion.div>
     </div>
   );
 }

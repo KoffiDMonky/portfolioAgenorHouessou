@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "../utils/carousel/Carousel";
+import { motion } from "framer-motion";
 
 function formations() {
   const formations = [
@@ -22,9 +23,18 @@ function formations() {
   return (
     <div className="container">
       <h1>Ma formation</h1>
-      <div className="formations">
+      <motion.div
+        className="formations"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.2,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+      >
         <Carousel array={formations} />
-      </div>
+      </motion.div>
     </div>
   );
 }

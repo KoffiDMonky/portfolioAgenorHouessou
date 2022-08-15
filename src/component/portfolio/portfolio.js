@@ -1,5 +1,7 @@
 import React from "react";
 import Carousel from "../utils/carousel/Carousel";
+import { motion } from "framer-motion";
+
 
 function portfolio() {
 
@@ -32,9 +34,17 @@ function portfolio() {
   return (
     <div className="container">
       <h1>Mon portfolio</h1>
-      <div className="portfolio">
+      <motion.div className="portfolio"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.2,
+            ease: [0, 0.71, 0.2, 1.01]
+          }}
+      >
         <Carousel array={portfolio} />
-      </div>
+      </motion.div>
     </div>
   );
 }
